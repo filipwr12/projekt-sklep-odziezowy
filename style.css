@@ -4,18 +4,18 @@
     padding: 0;
   }
   
-  body {
+body {
     font-family: Arial, sans-serif;
     color: #333;
   }
   
-  .container {
+.container {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
   }
   
-  nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,31 +24,31 @@
     border-bottom: 5px solid #ccc;
   }
   
-  .nav-left {
+.nav-left {
     display: flex;
     align-items: center;
   }
   
-  .nav-left-logo {
+.nav-left-logo {
     margin-right: 20px;
   }
-  .nav-left-logo img{
+.nav-left-logo img{
     width: 60px;
   }
   
-  .nav-right {
+.nav-right {
     display: flex;
     justify-content: space-between;
   }
   
-  .nav-right a {
+.nav-right a {
     margin-right: 20px;
     text-decoration: none;
     color: #333;
   }
   
   
-  .banner {
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,14 +60,14 @@
     background-size: cover;
   }
   
-  .banner h1{
+.banner h1{
    color: white;
    font-weight: 700;
    font-size: 32px;
    
   }
   
-  .banner button {
+.banner button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -77,19 +77,19 @@
     margin-top: 500px;
   }
   
-  .products {
+.products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  .row {
+.row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
   }
   
-  .cart {
+.cart {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,23 +100,23 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .cart img {
+.cart img {
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
   }
   
-  .describe {
+.describe {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .describe p {
+.describe p {
     margin-bottom: 10px;
   }
   
-  .describe button {
+.describe button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -126,7 +126,7 @@
   }
 
   
-  footer {
+footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -134,26 +134,26 @@
     border-top: 1px solid #ccc;
   }
   
-  .left {
+.left {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .right {
+.right {
     display: flex;
     justify-content: flex-end;
   }
   
-  .left h1 {
+.left h1 {
     margin-bottom: 10px;
   }
   
-  .left p {
+.left p {
     margin-bottom: 20px;
   }
   
-  .left button {
+.left button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
