@@ -2,53 +2,54 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, sans-serif;
     color: #333;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #ffffff;
     border-bottom: 5px solid #ccc;
-  }
-  
-  .nav-left {
+}
+
+.nav-left {
     display: flex;
     align-items: center;
-  }
-  
-  .nav-left-logo {
+}
+
+.nav-left-logo {
     margin-right: 20px;
-  }
-  .nav-left-logo img{
+}
+
+.nav-left-logo img {
     width: 60px;
-  }
-  
-  .nav-right {
+}
+
+.nav-right {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .nav-right a {
+}
+
+.nav-right a {
     margin-right: 20px;
     text-decoration: none;
     color: #333;
-  }
-  
-  
-  .banner {
+}
+
+
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,38 +59,38 @@
     background-image: url(Nike-Header-min.jpg);
     background-position: center;
     background-size: cover;
-  }
-  
-  .banner h1{
-   color: white;
-   font-weight: 700;
-   font-size: 32px;
-   
-  }
-  
-  .banner button {
+}
+
+.banner h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.banner button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background-color: #333;
     color: #fff;
-    cursor: pointer; 
+    cursor: pointer;
     margin-top: 500px;
-  }
-  
-  .products {
+}
+
+.products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .row {
+}
+
+.row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-  }
-  
-  .cart {
+}
+
+.cart {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,63 +99,63 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cart img {
+}
+
+.cart img {
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
-  }
-  
-  .describe {
+}
+
+.describe {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .describe p {
+}
+
+.describe p {
     margin-bottom: 10px;
-  }
-  
-  .describe button {
+}
+
+.describe button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background-color: #333;
     color: #fff;
     cursor: pointer;
-  }
+}
 
-  
-  footer {
+
+footer {
     display: flex;
     padding: 20px;
     background-color: #f0f0f0;
     border-top: 1px solid #ccc;
-  }
-  
-  .left {
+}
+
+.left {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 45%;
-  }
-  
-  .right {
+}
+
+.right {
     display: flex;
     width: 55%;
-  }
-  
-  .left h1 {
+}
+
+.left h1 {
     margin-bottom: 10px;
-  }
-  
-  .left p {
+}
+
+.left p {
     margin-bottom: 20px;
     font-size: 20px;
-  }
-  
-  .left button {
+}
+
+.left button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -162,19 +163,65 @@
     color: #fff;
     cursor: pointer;
     float: right;
-  }
-  .col{
+}
+
+.col {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-  }
-  .col a{
+}
+
+.col a {
     color: #333;
     text-decoration: none;
     padding: 10px;
     font-size: 23px;
-  }
-  .col h3{
+}
+
+.col h3 {
     font-size: 28px;
-  }
+}
+@media (max-width: 425px) {
+        body {
+            width: 425px;
+        }
+        .container {
+            width: 425px;
+            display: flex;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+        }
+        .nav-left-logo img{
+            width: 100px;
+            height: 56px;
+        }
+        .nav-right {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-top: 20px;
+            height: 50px;
+            width: 300px;
+        }
+        .nav-right a{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .banner {
+            background-image: url(Banner.png);
+            width: 425px;
+            height: 221px;
+            margin: 0;
+            padding: 0;
+        }
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
+    }
