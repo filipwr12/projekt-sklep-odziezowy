@@ -128,7 +128,10 @@
   
   footer {
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between;
+=======
+>>>>>>> c63301086c8a0dc499375c47e9ea389b7fd6aa12
     padding: 20px;
     background-color: #f0f0f0;
     border-top: 1px solid #ccc;
@@ -138,11 +141,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
+=======
+    width: 45%;
+>>>>>>> c63301086c8a0dc499375c47e9ea389b7fd6aa12
   }
   
   .right {
     display: flex;
+<<<<<<< HEAD
     justify-content: flex-end;
+=======
+    width: 55%;
+>>>>>>> c63301086c8a0dc499375c47e9ea389b7fd6aa12
   }
   
   .left h1 {
@@ -151,6 +162,10 @@
   
   .left p {
     margin-bottom: 20px;
+<<<<<<< HEAD
+=======
+    font-size: 20px;
+>>>>>>> c63301086c8a0dc499375c47e9ea389b7fd6aa12
   }
   
   .left button {
@@ -160,4 +175,23 @@
     background-color: #333;
     color: #fff;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+    float: right;
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col a{
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 23px;
+  }
+  .col h3{
+    font-size: 28px;
+>>>>>>> c63301086c8a0dc499375c47e9ea389b7fd6aa12
   }
