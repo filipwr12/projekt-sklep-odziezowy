@@ -49,7 +49,7 @@
   .nav-right a:hover{
     background-color: #333;
     color: #fff;
-    transition: .5s;
+    transition: .3s;
     border-radius: 10px;
   }
   
@@ -80,7 +80,11 @@
     color: #fff;
     cursor: pointer; 
     margin-top: 500px;
+    width: 210px;
+    height: 50px;
+    font-size: 25px;
   }
+
   
   .products {
     display: flex;
