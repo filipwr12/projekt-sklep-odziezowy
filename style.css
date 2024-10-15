@@ -12,7 +12,6 @@ body {
   
   nav {
     display: flex;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -23,7 +22,7 @@ body {
   .nav-left {
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 40%;
   }
   .nav-left-logo img{
     width: 100px;
@@ -31,7 +30,7 @@ body {
   
   .nav-right {
     display: flex;
-    width: 70%;
+    width: 60%;
     margin-left: 1000px;
   }
   
@@ -39,17 +38,33 @@ body {
     margin-right: 20px;
     text-decoration: none;
     color: #333;
+<<<<<<< HEAD
 }
 
 
 .banner {
+=======
+    font-size: 30px;
+    padding: 20px;
+    width: max-content;
+  }
+  
+  .nav-right a:hover{
+    background-color: #333;
+    color: #fff;
+    transition: .3s ease;
+    border-radius: 10px;
+  }
+  
+  .banner {
+>>>>>>> origin/Filip
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ccc;
-    background-image: url(Nike-Header-min.jpg);
+    background-image: url(baner.png);
     background-position: center;
     background-size: cover;
 }
@@ -67,9 +82,18 @@ body {
     border-radius: 5px;
     background-color: #333;
     color: #fff;
+<<<<<<< HEAD
     cursor: pointer;
     margin-top: 500px;
+=======
+    cursor: pointer; 
+    margin-top: 650px;
+    width: 210px;
+    height: 50px;
+    font-size: 25px;
+>>>>>>> origin/Filip
   }
+
   
   .products {
     display: flex;
@@ -92,11 +116,27 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
 }
 
 .cart img {
     width: 100px;
     height: 100px;
+=======
+    cursor: pointer;
+    width: 33%;
+    transition: .4s;
+  }
+
+  .cart:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart img {
+    width: 100%;
+    height: 100%;
+>>>>>>> origin/Filip
     margin-bottom: 10px;
   }
   
@@ -175,8 +215,111 @@ body {
     text-decoration: none;
     padding: 10px;
     font-size: 23px;
+<<<<<<< HEAD
 }
 
 .col h3 {
     font-size: 28px;
   }
+=======
+  }
+
+  .col a:hover{
+    text-decoration: underline;
+  }
+  .col h3{
+    font-size: 28px;
+  }
+
+
+  @media screen and (max-width:567px) {
+
+    body{
+      max-width: 567px;
+    }
+    nav{
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .nav-right{
+      margin: 0;
+    }
+    .banner{
+      display: none;
+    }
+
+    .cart{
+      width: 100%;
+      margin: auto;
+      padding: auto;
+    }
+
+    .products{
+      width: 100%;
+    }
+    .row{
+      flex-direction: column;
+    }
+
+    footer{
+      width: 100%;
+      flex-direction: column;
+    }
+    .left{
+      width: 100%;
+    }
+
+    footer .left button{
+      width: 250px;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  @media screen and (max-width:730px) {
+
+    body{
+      max-width: 567px;
+    }
+    nav{
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .nav-right{
+      margin: 0;
+    }
+    .banner{
+      display: none;
+    }
+
+    .cart{
+      width: 100%;
+      margin: auto;
+      padding: auto;
+    }
+
+    .products{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .row{
+      flex-direction: column;
+    }
+
+    footer{
+      width: 100%;
+      flex-direction: column;
+    }
+    .left{
+      width: 100%;
+    }
+
+    footer .left button{
+      width: 250px;
+      margin-bottom: 20px;
+    }
+  }
+>>>>>>> origin/Filip
