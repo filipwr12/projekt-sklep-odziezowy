@@ -1,0 +1,190 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 75%;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .nav-left-logo img{
+    width: 100px;
+  }
+  
+  .nav-right {
+    display: flex;
+    width: 60%;
+    margin-left: 1000px;
+  }
+  
+  .nav-right a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    padding: 20px;
+    width: max-content;
+  }
+  
+  .nav-right a:hover{
+    background-color: #333;
+    color: #fff;
+    transition: .3s;
+    border-radius: 10px;
+  }
+  
+  .main-con{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content{
+    text-align: center;
+  }
+  .con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-around;
+  
+  }
+  
+  .contact-information{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+  }
+  
+  .con .contact-information .box{
+    display: flex;
+    position: relative;
+    padding: 20px 0 0;
+  }
+  
+  .con .contact-information .box .icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 50%;
+  }
+  
+  .con .contact-information .box .text{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  
+  .formularz-kontaktowy{
+    width: 40%;
+    padding: 40px;
+    border: solid 2px #333;
+  }
+  
+  .formularz-kontaktowy .input-con{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .formularz-kontaktowy .input-con input{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+  }
+  
+  .formularz-kontaktowy .input-con .button{
+    border: none;
+    
+  }
+  
+  .formularz-kontaktowy .input-con textarea{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+  }
+  
+  @media (max-width:425px) {
+    body {
+      width: 425px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .main-con {
+      width: 425px;
+      height: 1000px;
+    }
+    .formularz-kontaktowy{
+      width: 370px;
+    }
+    .con {
+      width: 425px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .contact-information {
+      width: 425px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    nav {
+      width: 395px;
+      margin: 15px;
+      height: 60px;
+      padding: 0;
+    }
+    .nav-left {
+      width: 100px;
+      padding-left: 40px;
+    }
+    .nav-right {
+      float: left;
+      margin: 0;
+      font-weight: 700;
+      display: flex;
+    }
+    .nav-right a {
+      font-size: 16px;
+      width: 200px;
+    }
+    .nav-left-logo a img{
+      width: 50px;
+      height: 30px;
+    }
+    h2{
+      width: 100%;
+      display: block;
+      justify-content: center;
+    }
+    iframe{
+      height: 300px;
+      max-width: 100%;
+    }
+  }
