@@ -36,6 +36,7 @@ nav {
     color: #333;
     font-size: 30px;
     padding: 20px;
+    width: max-content;
   }
   
   .nav-right a:hover{
