@@ -49,7 +49,7 @@
   .nav-right a:hover{
     background-color: #333;
     color: #fff;
-    transition: .3s;
+    transition: .3s ease;
     border-radius: 10px;
   }
   
@@ -108,7 +108,14 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     width: 33%;
+    transition: .4s;
+  }
+
+  .cart:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   }
   
   .cart img {
@@ -194,6 +201,55 @@
     padding: 10px;
     font-size: 23px;
   }
+
+  .col a:hover{
+    text-decoration: underline;
+  }
   .col h3{
     font-size: 28px;
+  }
+
+
+  @media screen and (max-width:567px) {
+
+    body{
+      max-width: 567px;
+    }
+    nav{
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .nav-right{
+      margin: 0;
+    }
+    .banner{
+      display: none;
+    }
+
+    .cart{
+      width: 100%;
+      margin: auto;
+      padding: auto;
+    }
+
+    .products{
+      width: 100%;
+    }
+    .row{
+      flex-direction: column;
+    }
+
+    footer{
+      width: 100%;
+      flex-direction: column;
+    }
+    .left{
+      width: 100%;
+    }
+
+    footer .left button{
+      width: 250px;
+      margin-bottom: 20px;
+    }
   }
