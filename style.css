@@ -129,11 +129,7 @@ nav {
 
 @media (max-width: 425px) {
   
-  body {
-    width: 425px;
-    display: flex;
-    flex-direction: column;
-  }
+
   nav {
     width: 395px;
     margin: 15px;
