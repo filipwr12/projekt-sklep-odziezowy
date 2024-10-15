@@ -49,8 +49,7 @@
   .nav-right a:hover{
     background-color: #333;
     color: #fff;
-    transition: .3s ease;
-    border-radius: 10px;
+    transition: .3s;
   }
   
   .banner {
@@ -60,7 +59,7 @@
     padding: 40px;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ccc;
-    background-image: url(baner.png);
+    background-image: url(./images/baner.png);
     background-position: center;
     background-size: cover;
   }
@@ -115,8 +114,8 @@
   }
 
   .cart:hover{
-    transform: scale3d(1.1);
-    transform: translateY(-7px);
+    transform: scale3d(1.25);
+    transform: translateY(-10px);
     box-shadow: 0 0 8px #000;
   }
 
