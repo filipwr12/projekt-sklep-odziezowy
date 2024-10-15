@@ -253,3 +253,50 @@
       margin-bottom: 20px;
     }
   }
+
+
+  @media screen and (max-width:730px) {
+
+    body{
+      max-width: 567px;
+    }
+    nav{
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .nav-right{
+      margin: 0;
+    }
+    .banner{
+      display: none;
+    }
+
+    .cart{
+      width: 100%;
+      margin: auto;
+      padding: auto;
+    }
+
+    .products{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .row{
+      flex-direction: column;
+    }
+
+    footer{
+      width: 100%;
+      flex-direction: column;
+    }
+    .left{
+      width: 100%;
+    }
+
+    footer .left button{
+      width: 250px;
+      margin-bottom: 20px;
+    }
+  }
